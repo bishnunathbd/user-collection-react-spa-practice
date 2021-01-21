@@ -1,0 +1,9 @@
+.data-container{
+  display: flex;
+}
+.user-container{
+  width: 70%;
+  border-right: 1px solid gray;
+  margin-right: 10px;
+  margin-left: 10px;
+}
