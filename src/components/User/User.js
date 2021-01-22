@@ -16,7 +16,7 @@ const User = (props) => {
         <img src={picture.large} alt="" />
       </div>
       <div>
-        <h2>{name.title + ' ' + name.first + ' ' + name.last}</h2>
+        <h2 className='text-primary'>{name.title + ' ' + name.first + ' ' + name.last}</h2>
         <h4>Email: {email}</h4>
         <h4>Salary: {salary}</h4>
         <h4>Phone: {mobile}</h4>

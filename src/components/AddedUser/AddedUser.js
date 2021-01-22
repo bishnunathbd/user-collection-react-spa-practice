@@ -6,7 +6,7 @@ const AddedUser = (props) => {
 
   return (
     <div>
-      <h2>Summary</h2>
+      <h2 className='bg-success'>Summary</h2>
       <h4>Total Added Users: {addedUser.length}</h4>
       <h4>Total Salary: {totalSalary}</h4>
     </div>
